@@ -12,3 +12,6 @@
 	- To consider: how to accept a post/what's a valid post?
 	- No login required
 * To consider: Mobile access? App?
+
+![Image of simple_flow](img/simple_flow.png)
+
