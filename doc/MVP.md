@@ -11,4 +11,4 @@
 * Allow user to post a dive spot (location and initial review)
 	- To consider: how to accept a post/what's a valid post?
 	- No login required
-
+* To consider: Mobile access? App?
