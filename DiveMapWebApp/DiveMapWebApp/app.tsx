@@ -3,7 +3,7 @@ import { Button, Navbar, Nav, NavItem, Form, FormControl, ListGroup, Tab, Row, C
 import { BsPlus } from "react-icons/bs";
 import React = require('react');
 import ReactDOM = require('react-dom');
-import { LocationListItem } from "./LocationListItem";
+import { LocationList } from "./LocationList";
 import { NavbarItem } from "./NavbarItem";
 import { MapItem } from "./MapItem";
 import { Location } from "./types";
@@ -17,10 +17,7 @@ const App: React.FC = () => {
     return <React.Fragment>
         <NavbarItem />
         <div id = "sideList">
-            <ListGroup>
-                <LocationListItem location={locations[0]} />
-                <LocationListItem location={locations[1]} />
-            </ListGroup>
+            <LocationList locations={ locations } />
         </div>
         <div id= "map">
            <MapItem />

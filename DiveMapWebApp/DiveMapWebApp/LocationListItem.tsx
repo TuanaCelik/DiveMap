@@ -1,6 +1,6 @@
 ﻿import { Button, Navbar, Nav, NavItem, Form, FormControl, ListGroup, Tab, Row, Col, TabContainer } from 'react-bootstrap';
 import React = require('react');
-import { Location } from "./types";
+    import { Location } from "./types";
 import ReactDOM = require('react-dom');
 
 interface LocationListItemProps {
